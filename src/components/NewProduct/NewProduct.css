@@ -1,0 +1,28 @@
+.newProducts{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+height: 80vh;
+}
+
+
+.newProducts h1{
+    color: #295F98;
+    font-size: 48px;
+    font-weight: 600;
+    padding-block: 1.2em;    
+}
+.newProducts .new-products hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #4433ff;
+    padding: 0.1em;
+}
+.item-product{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    
+}
