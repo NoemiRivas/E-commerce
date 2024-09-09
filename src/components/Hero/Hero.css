@@ -1,0 +1,65 @@
+.hero{
+    display: flex;
+}
+.hero .imagen-hero{
+width: 100%;
+filter: brightness(0.8);
+}
+.hero .hero-rigth{
+    position: absolute;
+    left: 54%;
+    top: 56%;
+    padding: 1.8em;
+}
+.hero .hero-rigth h1{
+    font-family: "Roboto";
+    font-size: 52px;
+    color: #fff;
+    margin-bottom: 0.6em;
+}
+.hero .hero-rigth h2 {
+    font-family: "Roboto";
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 1.2em;
+    font-weight: 400;
+}
+
+.hero .btn-hero{
+        font-size: 18px;
+        min-width: 162px;
+        height: 60px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        background: #295F98 ;
+       z-index: 1;
+      }
+      .hero .btn-hero:hover:after {
+        width: 100%;
+        left: 0;
+      }
+      .hero .btn-hero:after {
+        border-radius: 5px;
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 100%;
+        top: 0;
+        z-index: -1;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+        transition: all 0.3s ease;
+        background-color: #4433ff;
+        right: 0;
+      }
+      .hero .btn-hero:active {
+        top: 2px;
+      }
