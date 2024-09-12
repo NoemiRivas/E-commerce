@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NewProduct.css"
-import data_product from '../Assets/svg/data'
+import data_product from '../Assets/svg/data_product'
 import Items from "../Items/Items"
 
 export default function NewProduct() {
