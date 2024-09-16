@@ -4,7 +4,8 @@ import "./Item.css"
 export default function Items(props) {
   return (
     <div className='item'>
-      <img src= {props.image} alt="" />
+    
+      <img src= {props.image} alt="product" />
       <p> {props.name} </p>
       <div className='item-price'>
         ${props. price}

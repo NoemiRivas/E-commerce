@@ -27,36 +27,43 @@ const [legalLinks,setLegalLink] = useState("servicios")
                 © 2024. All rights reserved.
                 </span>
             </div>
-
+       <div className="links">
         <div className='links-footer'>
-            <h2>links</h2>   
+            <h2>links</h2>
+            <div className="list-layout">
         <ul>   
-            <li onClick={()=>{setFooterMenu("inicio")}}><Link to ="/">Inicio</Link></li>
-            <li onClick={()=>{setFooterMenu("productos")}}><Link to ="/productos" >Productos</Link></li>
-            <li onClick={()=>{setFooterMenu("blog")}}><Link to = "/blog">Blog</Link></li>
-            <li onClick={()=>{setFooterMenu("acerca-de")}}><Link to = "/acerca-de">About</Link></li>
-            <li onClick={()=>{setFooterMenu("contacto")}}><Link to = "/contacto">Contacto</Link></li>
+            <li onClick={()=>{setFooterMenu("inicio")}}><Link to ="/">Inicio</Link>{footerMenu === "inicio" ? < hr className = "line"/> : <></>}</li>
+            <li onClick={()=>{setFooterMenu("productos")}}><Link to ="/productos" >Productos</Link>{footerMenu === "productos" ? < hr className = "line"/> : <></>}</li>
+            <li onClick={()=>{setFooterMenu("blog")}}><Link to = "/blog">Blog</Link>{footerMenu === "blog" ? < hr className = "line"/> : <></>}</li>
+            <li onClick={()=>{setFooterMenu("acerca-de")}}><Link to = "/acerca-de">About</Link>{footerMenu === "acerca-de" ? < hr className = "line"/> : <></>}</li>
+            <li onClick={()=>{setFooterMenu("contacto")}}><Link to = "/contacto">Contacto</Link>{footerMenu === "contacto" ? < hr className = "line"/> : <></>}</li>
           </ul>
+          </div>   
         </div>
         <div className='links-footer'>
-            <h2>legal</h2>       
+            <h2>legal</h2> 
+            <div className="list-layout">
             <ul>
-                <li onClick={()=> {setLegalLink("servicios")}}><Link to = "servicios">Servicios</Link> </li>
-                <li onClick={()=> {setLegalLink("terminos-y-condiciones")}}><Link to = "terminos-y-condiciones">terminos y condiciones</Link> </li>
-                <li onClick={()=> {setLegalLink("politica-de-reembolso")}}><Link to = "politica-de-reembolso">politica de reembolso</Link></li>
-                <li onClick={()=> {setLegalLink("Politica-de-cookies")}}><Link to = "Politica-de-cookies">Politica de cookies</Link></li>
+                <li onClick={()=> {setLegalLink("servicios")}}><Link to = "servicios">Servicios</Link> {footerMenu === "servicios" ? < hr className = "line"/> : <></>}</li>
+                <li onClick={()=> {setLegalLink("terminos-y-condiciones")}}><Link to = "terminos-y-condiciones">terminos y condiciones</Link>{footerMenu === "terminos-y-condiciones" ? < hr className = "line"/> : <></>} </li>
+                <li onClick={()=> {setLegalLink("politica-de-reembolso")}}><Link to = "politica-de-reembolso">politica de reembolso</Link>{footerMenu === "politica-de-reembolso" ? < hr className = "line"/> : <></>}</li>
+                <li onClick={()=> {setLegalLink("Politica-de-cookies")}}><Link to = "politica-de-cookies">Politica de cookies</Link>{footerMenu === "politica-de-cookies" ? < hr className = "line"/> : <></>}</li>
             </ul>
+            </div>
         </div>
         <div className='links-footer'>
             <h2>contacto</h2>
+            <div className="list-layout">
             <p>
             Location:123, New Lenox Chicago, IL 60606
             Email:info@example.com
             Phone:123-456-7890  
             </p>
+            </div>
 
         </div> 
-        </div>   
+        </div>
+       </div>
     </div>
   )
 }

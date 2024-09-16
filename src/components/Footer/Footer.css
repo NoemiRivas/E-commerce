@@ -22,6 +22,13 @@
 .footer hr{
     color: #adadad;
     border: 1px solid;
+    
+}
+.footer .line{
+    color: #adadad;
+    border: 1px solid;
+    width: 42px;
+    margin-left: 0;
 }
 
 .footer  .layout-nav-footer .logo{
@@ -50,17 +57,34 @@
     font-size: 10px;
 }
 
-.footer .links-footer{
-width: 16%;
-    
+.footer .links{
+    display: flex;
 }
 
-.footer .links-footer h2{
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 36px;
+.footer .links .links-footer{ 
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 18%;  
 }
-.footer .links-footer  p{
+.footer .links .links-footer .list-layout{
+ margin-left: 0;   
+}
+.footer .links .links-footer  h2{
+    margin-left: 38px;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    color: #fff;
+
+}
+.footer .links .links-footer .list-layout li{
     color: #adadad;
     font-size: 16px;
+    margin-bottom: 0.8em;
+}
+
+.footer .links  .links-footer .list-layout p{
+    color: #adadad;
+    font-size: 16px;
+    font-family: "Roboto";
 }

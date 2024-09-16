@@ -14,3 +14,4 @@ const ShopContextProvider = (props) => {
 }
 
 export default ShopContextProvider;
+// productos a mostrar en diferentes paginas de la web

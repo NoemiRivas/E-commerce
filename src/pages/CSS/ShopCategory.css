@@ -1,66 +1,8 @@
 .shop-category{
-    display: flex;
-    flex-direction: column;
-    background: #295F98;
-    position: absolute;
-    left: 0;
-    margin: 0px  auto;
-    margin-top: 8em;
-    width: 280px;
-    z-index: 1;
-    border-radius: 5px;
+display: flex;
+flex-direction: column;
 }
-.shop-category .sidebar{
-    padding: 8px 28px;
-    margin-top: 24px;
-}
-hr{
-    color: #dfdfdf;
-}
-.shop-category .sidebar .products-on h2{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: "Roboto";
-    margin-bottom: 1.8em;
-}
+.shop-category .banner{
+    width: 100%;
 
-.shop-category .sidebar .products-on p{
-    color: #dfdfdf;
-    font-size: 12px;
-    font-family: "Roboto";
-    margin-bottom: 1.8em;
-   
-}
-.shop-category .sidebar .filterprice h2{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: "Roboto";
-    margin-bottom: 1.8em;
-    margin-top: 2.2em;
-}
-.shop-category .sidebar .filterprice li{
-    color: #dfdfdf;
-    font-size: 14px;
-    margin: 2px 0px;
-    font-family: "Roboto";
-    margin-bottom: 1.8em;
-   
-}
-.shop-category .sidebar .categories h2{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-family: "Roboto";
-    margin-bottom: 1.8em;
-    margin-top: 2.2em;
-}
-.shop-category .sidebar .titles-categories{
-    color: #dfdfdf;
-    font-size: 14px;
-    margin: 2px -40px;
-    font-family: "Roboto";
-    margin-bottom: 1.8em;
-    text-transform: capitalize;
 }
