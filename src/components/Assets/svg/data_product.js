@@ -7,6 +7,7 @@ let data_product = [
     {
         id:1,
         name:"Thermal Running Watch Element 2.0",
+        category: "relojes_inteligentes",
         image:reloj,
         price:259
 
@@ -14,6 +15,7 @@ let data_product = [
     {
         id:2,
         name:"anillo inteligente",
+        category:"anillos_inteligentes",
         image:anillo,
         price:289
 
@@ -21,6 +23,7 @@ let data_product = [
     {
         id:1,
         name:"Balanza Digital Bluetooth",
+        category:"balanzas_digitales",
         image:balanza,
         price:49
 
