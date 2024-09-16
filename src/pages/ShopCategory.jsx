@@ -3,8 +3,7 @@ import "./CSS/ShopCategory.css"
 import { ShopContext} from "../context/ShopContext"
 import Items from "../components/Items/Items"
 import React from 'react'
-import banner from "../Assets/img/banner-2.png"
-import Down_arrow from "../components/Assets/svg/Down_arrow"
+
 import Sidebar from "../components/Sidebar/Sidebar"
 
 /** shop-category: busca los productos por categoria*/

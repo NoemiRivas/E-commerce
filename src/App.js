@@ -10,6 +10,7 @@ import ShopCategory from './pages/ShopCategory.jsx';
 import About from "./pages/About.jsx"
 import Blog from "./pages/Blog.jsx"
 import Contacto from "./pages/Contacto.jsx"
+import banner from "./Assets/img/banner-2.png"
 
 
 
@@ -25,7 +26,7 @@ function App() {
         <Route path='/About' element= {<About/>} />
         <Route path='/Blog' element= {<Blog/>} />
         <Route path='/Contacto' element= {<Contacto/>} />
-        <Route path='/productos' element= {<ShopCategory/>} />
+        <Route path='/productos' element= {<ShopCategory banner= {banner} />} />
         <Route path='/relojes-inteligentes' element={<ShopCategory category="relojes-inteligentes"/>}/>
         <Route path='/auriculares-inalambricos' element={<ShopCategory category="auriculares-inalambricos"/>}/>
         <Route path='/zapatillas-inteligentes' element={<ShopCategory category="zapatillas-inteligentes"/>}/>
