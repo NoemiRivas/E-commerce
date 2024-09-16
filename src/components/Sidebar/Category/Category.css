@@ -1,0 +1,17 @@
+
+.sidebar-label-container h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.sidebar-items{
+    margin-top: 20px;
+}
+.sidebar-label-container{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding-left: 34px;
+    cursor: pointer;
+
+}
